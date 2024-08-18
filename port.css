@@ -1,0 +1,72 @@
+/* Reset some default styles */
+html, body, h1, h2, p, ul, li {
+  margin: 0;
+  padding: 0;
+}
+
+/* Apply a background color and style the welcome section */
+#welcome-section {
+  background-color: #3498db;
+  color: #fff;
+  text-align: center;
+  padding: 100px 0; /* Height equal to the viewport height */
+}
+
+h1 {
+  font-size: 2em;
+}
+
+/* Style the navbar */
+#navbar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: #333;
+  color: #fff;
+}
+
+#navbar ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+  padding: 10px;
+}
+
+#navbar a {
+  text-decoration: none;
+  color: #fff;
+}
+
+/* Style the project tiles */
+.project-tile {
+  padding: 20px;
+  margin: 20px;
+  background-color: #f1f1f1;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.project-link {
+  display: block;
+  margin-top: 10px;
+  text-decoration: none;
+  background-color: #3498db;
+  color: #fff;
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+
+/* Apply media queries for responsiveness */
+@media (max-width: 768px) {
+  h1 {
+    font-size: 1.5em;
+  }
+  
+  .project-tile {
+    width: 80%;
+    margin: 10px auto;
+  }
+}
+
+/* Additional styling and media queries can be added as needed */
